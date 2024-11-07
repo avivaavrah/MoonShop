@@ -9,10 +9,12 @@ These instructions will help you set up and run the app locally.
 
 1. Prerequisites
     Visual Studio Code (VS Code) - Code editor.
+   
     Node.js - JavaScript runtime.
+   
     MongoDB Compass - GUI for MongoDB.
 
-2. Installation
+3. Installation
     Download the MoonShop project 
 
     Open the folder in VS Code.
@@ -24,7 +26,7 @@ These instructions will help you set up and run the app locally.
     cd ../moon-shop-frontend
     npm install
 
-3. Import Database Data
+4. Import Database Data
     Open MongoDB Compass and connect to your MongoDB instance.
     In the Compass interface, create a new database named moon-shop.
     Within the moon-shop database, create a collection named offers.
@@ -33,7 +35,7 @@ These instructions will help you set up and run the app locally.
     Select ...\moon-shop-backend\db\offers.json to import the initial data.
 
 
-4. Running the Application
+5. Running the Application
     Start the backend server:
 
     cd moon-shop-backend
@@ -46,7 +48,7 @@ These instructions will help you set up and run the app locally.
     npm start
     The frontend server will be running on http://localhost:3000.
 
-5.  URL Example and Configuration
+6.  URL Example and Configuration
 
     Once both servers are running, open http://localhost:3000?userId= {userId} in your browser.
     The offers page will display a list of items available for purchase.
