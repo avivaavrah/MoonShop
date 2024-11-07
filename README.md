@@ -28,27 +28,34 @@ These instructions will help you set up and run the app locally.
 
 4. Import Database Data
     Open MongoDB Compass and connect to your MongoDB instance.
+   
     In the Compass interface, create a new database named moon-shop.
+   
     Within the moon-shop database, create a collection named offers.
+   
     Import the offers.json file:
+   
     Go to Collection > Import Data.
+   
     Select ...\moon-shop-backend\db\offers.json to import the initial data.
 
 
-5. Running the Application
+6. Running the Application
     Start the backend server:
 
     cd moon-shop-backend
     node index.js
+   
     The backend server will be running on http://localhost:5000.
 
     Start the frontend application:
 
     cd moon-shop-frontend
     npm start
+   
     The frontend server will be running on http://localhost:3000.
 
-6.  URL Example and Configuration
+8.  URL Example and Configuration
 
     Once both servers are running, open http://localhost:3000?userId= {userId} in your browser.
     The offers page will display a list of items available for purchase.
