@@ -1,0 +1,28 @@
+
+.offers-container {
+    width: 200px;
+    margin: 0 auto; /* Centers the div horizontally */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center; /* Centers the content inside */
+}
+
+.offer-item {
+    margin-bottom: 10px;
+}
+
+.offer-button {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.offer-button:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+}
