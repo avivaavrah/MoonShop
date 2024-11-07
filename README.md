@@ -3,7 +3,8 @@
 MoonShop Web Store
 A simple web store application to present a list of offers and allow users to purchase items. Each offer has a purchase limit for each user, tracked independently.
 
-Getting Started
+Getting Started:
+
 These instructions will help you set up and run the app locally.
 
 1. Prerequisites
@@ -45,16 +46,15 @@ These instructions will help you set up and run the app locally.
     npm start
     The frontend server will be running on http://localhost:3000.
 
-    Once both servers are running, open http://localhost:3000?userId= {userId} in your browser. The offers page will display a list of items available for purchase.
+5.  URL Example and Configuration
+
+    Once both servers are running, open http://localhost:3000?userId= {userId} in your browser.
+    The offers page will display a list of items available for purchase.
     The userId variable is a string, for example http://localhost:3000?userId=userId123
     If you won't send a userId in the url, default user id will be set.
     To change the user, simply change the variable value : http://localhost:3000?userId=userId124
 
     To make a purchase, simply click on the offer button. Each user has an independent limit for purchasing each offer.
-
-    URL Example and Configuration
-    You can make API requests directly for testing purposes. Here’s an example:
-
 
     Additional Notes
     If you open multiple tabs or run the application in different browsers with the same userId, the purchase limit will be shared across those instances, simulating multiple purchases by the same user.
