@@ -30,6 +30,7 @@ These instructions will help you set up and run the app locally.
     npm install
 
 5. Import Database Data
+   
     Open MongoDB Compass and connect to your MongoDB instance.
    
     In the Compass interface, create a new database named moon-shop.
@@ -43,7 +44,7 @@ These instructions will help you set up and run the app locally.
     Select ...\moon-shop-backend\db\offers.json to import the initial data.
 
 
-6. Running the Application
+7. Running the Application
     Start the backend server:
 
     cd moon-shop-backend
